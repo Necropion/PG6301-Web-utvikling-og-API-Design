@@ -5,7 +5,7 @@ Heroku Link for testing: https://simple-heroku-0f0e028dd370.herokuapp.com/
 
 Karakter: C
 
-Oppgaven på eksamen var å lage an live chat applikasjon der man kunne snakke sammen med andre mennesker på sann-tid fra forskjellige pcer.
+Oppgaven på eksamen var å lage an live chat applikasjon der man kunne snakke sammen med andre mennesker på sann-tid fra forskjellige datamaskiner.
 
 Merkeverdige teknologier med appen:
 - OAuth2 Google OpenID Login
