@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View tests Renders Add View 1`] = `
+<div
+  className="application"
+>
+  <div
+    className="header"
+  >
+    <h1
+      className="headerTitle"
+    >
+      Simple Application
+    </h1>
+  </div>
+  <div
+    className="main"
+  >
+    <div
+      className="view"
+    >
+      <div
+        className="viewDiv"
+      >
+        <h1
+          className="viewHeader"
+        >
+          Welcome 
+          Jokubas Gedminas
+        </h1>
+        <button
+          className="viewBtn"
+          onClick={[Function]}
+          value="home"
+        >
+          Home
+        </button>
+        <button
+          className="viewBtn"
+          onClick={[Function]}
+          value="my-tasks"
+        >
+          My Chats
+        </button>
+        <button
+          className="viewBtn"
+          onClick={[Function]}
+          value="profile"
+        >
+          Profile
+        </button>
+        <button
+          className="viewBtn"
+          onClick={[Function]}
+          value="logout"
+        >
+          Sign out
+        </button>
+      </div>
+      <div
+        className="viewOutput"
+      >
+        <div
+          className="addOutput"
+        >
+          <div />
+          <form
+            className="addTask"
+            onSubmit={[Function]}
+          >
+            <h3>
+              Add Chat
+            </h3>
+            <p />
+            <div
+              className="inputDiv"
+            >
+              <div
+                className="title"
+              >
+                <p>
+                  Title
+                </p>
+                <input
+                  onChange={[Function]}
+                  placeholder="title"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="description"
+              >
+                <p>
+                  Description
+                </p>
+                <input
+                  className="descriptionInput"
+                  onChange={[Function]}
+                  placeholder="description"
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="status"
+              >
+                <p />
+                <div />
+              </div>
+            </div>
+            <button
+              className="viewBtn"
+              value="addTask"
+            >
+              Add
+            </button>
+          </form>
+          <div
+            className="profileDiv"
+          >
+            <img
+              alt="No Image"
+              placeholder="No Image"
+              src="https://static.vecteezy.com/system/resources/thumbnails/020/765/399/small/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg"
+            />
+            <h3>
+              User
+            </h3>
+            <p>
+              Username: Henry
+            </p>
+            <p>
+              UserID: 655e8c432fff7d8ef2a281fc
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer"
+  >
+    <div>
+      Made by Jokubas Gedminas
+    </div>
+  </div>
+</div>
+`;
+
+exports[`View tests Renders Callback 1`] = `
+<div
+  className="application"
+>
+  <div
+    className="header"
+  >
+    <h1
+      className="headerTitle"
+    >
+      Simple Application
+    </h1>
+  </div>
+  <div
+    className="main"
+  >
+    <div
+      className="view"
+    >
+      <div
+        className="viewDiv"
+      >
+        <h1
+          className="viewHeader"
+        >
+          Please Wait...
+        </h1>
+        <button
+          className="viewBtn"
+          onClick={[Function]}
+          value="home"
+        >
+          Home
+        </button>
+        <button
+          className="viewBtn"
+          onClick={[Function]}
+          value="profile"
+        >
+          Profile
+        </button>
+        <button
+          className="viewBtn"
+          onClick={[Function]}
+          value="logout"
+        >
+          Sign out
+        </button>
+      </div>
+      <div
+        className="viewOutput"
+      >
+        <pre />
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer"
+  >
+    <div>
+      Made by Jokubas Gedminas
+    </div>
+  </div>
+</div>
+`;

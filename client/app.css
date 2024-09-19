@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
+
+/* Background */
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: burlywood;
+  font-family: "Poppins";
+}
+
+.root {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.application {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 85% 5%;
+}
+
+/* Header */
+.header {
+  margin: 0;
+  background-color: antiquewhite;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  line-height: 10vh;
+  height: 100%;
+  width: 100%;
+}
+
+/* Main */
+.main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Login Page */
+.loginForm,
+.registerForm {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  width: 20vw;
+  height: 40vh;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 25% 10% 15% 15% 20% 15%;
+  grid-template-columns: 33% 33% 33%;
+  justify-items: center;
+  align-items: center;
+  box-shadow: 0 5px #999;
+}
+
+.registerForm {
+  grid-template-rows: 25% 10% 15% 15% 15% 15%;
+}
+
+.loginForm h2,
+.loginForm p,
+.loginForm .loginBtn,
+.registerForm h2,
+.registerForm p {
+  grid-column: span 3;
+}
+
+.loginForm input,
+.registerForm input {
+  width: 75%;
+  height: 45%;
+  grid-column: span 3;
+}
+
+.loginBtn,
+.registerBtn,
+.backBtn {
+  background-color: lightgreen;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  width: 90px;
+  box-shadow: 0 5px #999;
+}
+
+.loginBtn:hover,
+.registerBtn:hover,
+.backBtn:hover {
+  background-color: crimson;
+}
+
+.loginBtn:active,
+.registerBtn:active,
+.backBtn:active {
+  position: relative;
+  background-color: crimson;
+  top: 2px;
+  box-shadow: 0 3px #666;
+}
+
+.main .loginForm .googleBtn,
+.main .loginForm .microsoftBtn {
+  line-height: 40px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  border: black 1px solid;
+}
+
+.main .loginForm .googleBtn:hover {
+  background-color: lightblue;
+}
+
+.main .loginForm .googleBtn:active {
+  background-color: crimson;
+}
+
+/* General Page */
+.main .view {
+  text-align: center;
+  background-color: transparent;
+  display: grid;
+  width: 80vw;
+  grid-template-rows: 10vh 65vh;
+}
+
+.main .viewDiv {
+  display: grid;
+  grid-template-rows: 100%;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  grid-template-columns: 72% 7% 7% 7% 7%;
+  box-shadow: 0 5px #999;
+}
+
+.main .viewDiv .viewHeader {
+  margin: 0;
+  align-self: center;
+  line-height: 10vh;
+  width: 139%;
+  height: 100%;
+}
+
+.viewBtn,
+.deleteBtn,
+.updateBtn {
+  margin: 0;
+  padding: 0;
+  background-color: lightgreen;
+  border-radius: 10px;
+  height: 45%;
+  width: 60%;
+  place-self: center;
+  border: none;
+  box-shadow: 0 5px #999;
+  font-family: "Poppins";
+}
+
+.viewBtn:hover,
+.deleteBtn:hover,
+.updateBtn:hover {
+  background-color: crimson;
+}
+
+.viewBtn:active,
+.deleteBtn:active,
+.updateBtn:active {
+  position: relative;
+  top: 2px;
+  background-color: crimson;
+  box-shadow: 0 3px #666;
+}
+
+.main .viewOutput {
+  display: grid;
+  place-items: center;
+  grid-template-rows: 100%;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* MyChats Page */
+.taskDiv {
+  margin: 0;
+  display: grid;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 10% 25% 63%;
+  grid-template-columns: 75% 25%;
+}
+
+.taskDiv .taskHeader {
+  grid-column: span 2;
+  display: grid;
+  width: 103%;
+  grid-template-columns: 80% 10% 7%;
+}
+
+.taskDiv .taskHeader h3 {
+  margin: 0;
+  line-height: 6vh;
+  height: 100%;
+  width: 90%;
+  align-self: center;
+}
+
+.taskDiv .taskHeader .searchBar {
+  height: 60%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 3px #999;
+  place-self: center;
+}
+
+.taskDiv .searchDiv {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  display: grid;
+  grid-template-columns: 100%;
+  place-items: center;
+  grid-auto-rows: 20%;
+  overflow: scroll;
+}
+
+.searchDiv .user {
+  display: grid;
+  width: 95%;
+  height: 95%;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  place-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+
+.searchDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.user:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+}
+
+.user img {
+  border-radius: 5px;
+  width: 80%;
+}
+
+.taskDiv .taskOutput {
+  overflow: scroll;
+  display: grid;
+  height: 100%;
+  width: 99%;
+  grid-template-columns: repeat(3, 33%);
+  grid-auto-rows: 32vh;
+  grid-row: span 2;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.taskDiv .taskOutput::-webkit-scrollbar {
+  display: none;
+}
+
+.taskDiv .taskCard {
+  display: grid;
+  grid-template-rows: 10% 70% 7% 13%;
+  grid-template-columns: repeat(2, 50%);
+  margin: 10px;
+  height: 95%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.taskDetails {
+  display: grid;
+  grid-template-rows: 10% 70% 7% 13%;
+  grid-template-columns: repeat(2, 50%);
+  margin: 10px;
+  height: 55%;
+  width: 75%;
+  grid-row: span 2;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.taskCard p,
+.taskDetails p {
+  margin: 0;
+  place-self: start;
+  width: 100%;
+  grid-column: span 2;
+}
+
+.taskCard h4,
+.taskDetails h4 {
+  background-color: gold;
+  margin: 0;
+  line-height: 3vh;
+  place-self: center;
+  width: 100%;
+  height: 100%;
+  border-bottom: lightgrey 2px solid;
+  grid-column: span 2;
+}
+
+.deleteBtn,
+.updateBtn {
+  height: 30px;
+  width: 60px;
+  box-shadow: 0 3px #999;
+}
+
+/* Profile Page */
+.profileDiv {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 30% 70%;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  width: 20vw;
+  height: 15vh;
+}
+
+.profileDiv h3,
+.profileDiv p {
+  margin: 0;
+}
+
+.profileDiv img {
+  border-radius: 10px;
+  grid-row: span 3;
+  width: 80%;
+}
+
+/* Add Page */
+
+.updateOutput {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 31% 69%;
+}
+
+.addTask,
+.updateTask {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 10% 70% 10%;
+  grid-column: span 2;
+  grid-row: span 3;
+  height: 60vh;
+  width: 20vw;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.updateTask {
+  grid-column: span 1;
+}
+
+.inputDiv {
+  display: grid;
+  place-items: center;
+  grid-template-rows: 15% 70% 15%;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.inputDiv div {
+  display: grid;
+  place-items: center;
+  grid-template-rows: 40% 60%;
+  width: 100%;
+  height: 100%;
+}
+
+.inputDiv div input {
+  border-radius: 10px;
+  border: lightgrey 2px solid;
+  text-align: center;
+  width: 75%;
+  height: 85%;
+}
+
+.inputDiv .description {
+  grid-template-rows: 10% 90%;
+}
+
+.inputDiv div .descriptionInput {
+  height: 98%;
+}
+
+.addOutput {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 10% 25% 65%;
+  place-items: center;
+}
+
+.addOutput .profileDiv {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+/* Update Page */
+
+.editDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.updateOutput .profileDiv {
+  width: 95%;
+}
+
+/* Chat Room */
+.chatOutput {
+  border: none;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  box-shadow: 0 5px #999;
+  grid-column: span 3;
+  grid-row: span 2;
+  width: 95%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-rows: 90% 10%;
+}
+
+.chatHeader {
+  grid-column: span 3;
+}
+
+.msgOutput {
+  display: grid;
+  place-items: start;
+  background-color: white;
+  width: 95%;
+  height: 95%;
+  border: none;
+  grid-auto-rows: 5%;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  overflow: scroll;
+}
+
+.msgOutput::-webkit-scrollbar {
+  display: none;
+}
+
+.msgInput {
+  width: 100%;
+  height: 100%;
+}
+
+.msgInput form {
+  display: grid;
+  place-self: center;
+  grid-template-columns: 93% 7%;
+  border-radius: 5px;
+  border: none;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.msgInput form input {
+  width: 95%;
+  height: 80%;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: antiquewhite;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+}

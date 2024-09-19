@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login components tests Renders Google login button 1`] = `
+<a
+  className="googleBtn"
+  href=""
+>
+  Google
+</a>
+`;

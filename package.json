@@ -1,0 +1,31 @@
+{
+  "name": "simpleapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run install:client && npm run install:server ",
+    "install:client": "cd client && npm install --include=dev",
+    "install:server": "cd server && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "client": "npm run dev --prefix ./client",
+    "server": "npm run dev --prefix ./server",
+    "dev": " concurrently \"npm run client\" \"npm run server\"",
+    "check": "check:prettier",
+    "test": "npm run test --prefix ./client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "prettier": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}

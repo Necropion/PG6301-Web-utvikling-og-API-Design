@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat components tests Renders Add chat button 1`] = `null`;
+
+exports[`Chat components tests Renders Edit chat buttons for admin 1`] = `
+<div
+  className="editDiv"
+>
+  <button
+    className="deleteBtn"
+    onClick={[Function]}
+    value="delete"
+  >
+    Delete
+  </button>
+  <button
+    className="updateBtn"
+    onClick={[Function]}
+    value="update"
+  >
+    Update
+  </button>
+</div>
+`;
+
+exports[`Chat components tests Renders Edit chat buttons for normal user 1`] = `
+<div
+  className="editDiv"
+>
+  <button
+    className="deleteBtn"
+    onClick={[Function]}
+    value="chat"
+  >
+    Enter
+  </button>
+  <div />
+</div>
+`;

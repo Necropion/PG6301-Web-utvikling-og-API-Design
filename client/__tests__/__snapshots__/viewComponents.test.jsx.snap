@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View components tests Renders Footer 1`] = `
+<div>
+  Made by Jokubas Gedminas
+</div>
+`;
+
+exports[`View components tests Renders Header 1`] = `
+<h1
+  className="headerTitle"
+>
+  Simple Application
+</h1>
+`;
+
+exports[`View components tests Renders Navigation 1`] = `
+<div
+  className="viewDiv"
+>
+  <h1
+    className="viewHeader"
+  >
+    Welcome 
+    dummy
+  </h1>
+  <button
+    className="viewBtn"
+    onClick={[Function]}
+    value="home"
+  >
+    Home
+  </button>
+  <button
+    className="viewBtn"
+    onClick={[Function]}
+    value="my-tasks"
+  >
+    My Chats
+  </button>
+  <button
+    className="viewBtn"
+    onClick={[Function]}
+    value="profile"
+  >
+    Profile
+  </button>
+  <button
+    className="viewBtn"
+    onClick={[Function]}
+    value="logout"
+  >
+    Sign out
+  </button>
+</div>
+`;
+
+exports[`View components tests Renders ProfileCard 1`] = `null`;
+
+exports[`View components tests Renders UserList 1`] = `
+<div
+  className="searchDiv"
+>
+  <div>
+    All Users
+  </div>
+  <div
+    className="user"
+    onClick={[Function]}
+  >
+    <img
+      alt="No Image"
+      placeholder="No Image"
+      src="https://static.vecteezy.com/system/resources/thumbnails/020/765/399/small/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg"
+    />
+    <p>
+      dummy
+    </p>
+  </div>
+  <div
+    className="user"
+    onClick={[Function]}
+  >
+    <img
+      src="dummy"
+    />
+    <p>
+      dummy
+    </p>
+  </div>
+</div>
+`;
