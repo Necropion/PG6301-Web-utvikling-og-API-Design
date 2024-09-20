@@ -31,6 +31,7 @@ Uten disse variablene kommer ikke appen til å kjøre
 
 Dette bør være inne i en .env fil inne på server mappen.
 
+Kjør disse kommandoene for å sette opp prosjektet lokalt:
 1. I prosjekt root folder, bruk 'npm install' i terminal
 2. Videre: 'npm run postinstall'
 3. Grunnet at appen blir deployet på heroku må appen bruke secure web-sockets, derfor er linken til websockets i koden wss og ikke ws. Hvis du vil kjøre koden lokalt må dette endres til ws. Eneste stedet dette må endres er på Chat komponenten i fuseLoadandFetch useEffect metoden.
