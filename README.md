@@ -27,7 +27,7 @@ For å kunne kjøre denne applikasjonen kommre du til å trenge 2 Environment Va
 - En MONGO_URI til en database i Mongo Atlas
 - En COOKIE_SECRET(for autentisering av brukere)
 
-Uten disse variablene komme rikke appen til å kjøre
+Uten disse variablene kommer ikke appen til å kjøre
 
 Dette bør være inne i en .env fil inne på server mappen.
 
