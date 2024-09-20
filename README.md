@@ -23,6 +23,6 @@ Applikasjonen møter deg med en inloggingsside der du har valget mellom Google L
 ### Testing lokalt:
 
 1. I prosjekt root folder, bruk 'npm install' i terminal
-2. Videre: 'npm postinstall'
+2. Videre: 'npm run postinstall'
 3. Grunnet at appen blir deployet på heroku må appen bruke secure web-sockets, derfor er linken til websockets i koden wss og ikke ws. Hvis du vil kjøre koden lokalt må dette endres til ws. Eneste stedet dette må endres er på Chat komponenten i fuseLoadandFetch useEffect metoden.
 4. 'npm run dev' og appen skal kjøre
