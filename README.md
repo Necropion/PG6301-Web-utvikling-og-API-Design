@@ -7,7 +7,7 @@ Karakter: C
 
 Oppgaven på eksamen var å lage an live chat applikasjon der man kunne snakke sammen med andre mennesker på sann-tid fra forskjellige datamaskiner.
 
-Applikasjonen møter deg med en inloggingsside der du har valget mellom Google Login eller registrering av tradisjonelt bruker med passord. Når du har logget inn møtes du av hjemmesiden med en liste av alle chat rom laget av brukere på applikasjonen. du kan bli med på hvilken som helt chat og begynne en samtale. Du har også mulighet til å lage dine egne chat rom og se alle chat rom som du har laget i "My Chats". Om du vil se informasjon om din egen profil har du Profile komponenten, eller kan du alltid se alle brukere på nettsiden og trykke på dem for å se deres informasjon.
+Applikasjonen møter deg med en inloggingsside der du har valget mellom Google Login eller registrering av tradisjonelt bruker med passord. Når du har logget inn møtes du av hjemmesiden med en liste av alle chat rom laget av brukere på applikasjonen. du kan bli med på hvilken som helt chat og begynne en samtale. Du har også mulighet til å lage dine egne chat rom og se alle chat rom som du har laget i "My Chats". Om du vil se informasjon om din egen profil har du Profile komponenten, ellers kan du alltid se alle brukere på nettsiden og trykke på dem for å se deres informasjon.
 
 Merkeverdige teknologier med appen:
 - OAuth2 Google OpenID Login
