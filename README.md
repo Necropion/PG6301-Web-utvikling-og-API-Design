@@ -22,6 +22,15 @@ Applikasjonen møter deg med en inloggingsside der du har valget mellom Google L
 
 ### Testing lokalt:
 
+For å kunne kjøre denne applikasjonen kommre du til å trenge 2 Environment Variabler:
+- PORT variabel(Hvilken lokal port din lokale server skal kjøres på)
+- En MONGO_URI til en database i Mongo Atlas
+- En COOKIE_SECRET(for autentisering av brukere)
+
+Uten disse variablene komme rikke appen til å kjøre
+
+Dette bør være inne i en .env fil inne på server mappen.
+
 1. I prosjekt root folder, bruk 'npm install' i terminal
 2. Videre: 'npm run postinstall'
 3. Grunnet at appen blir deployet på heroku må appen bruke secure web-sockets, derfor er linken til websockets i koden wss og ikke ws. Hvis du vil kjøre koden lokalt må dette endres til ws. Eneste stedet dette må endres er på Chat komponenten i fuseLoadandFetch useEffect metoden.
