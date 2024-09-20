@@ -3,7 +3,7 @@
 Jeg har en deployet denne appen på Heroku, dersom den vil testes uten å kjøre koden lokalt:
 Heroku Link for testing: https://simple-heroku-0f0e028dd370.herokuapp.com/
 
-Karakter: C
+#### Karakter: C
 
 Oppgaven på eksamen var å lage an live chat applikasjon der man kunne snakke sammen med andre mennesker på sann-tid fra forskjellige datamaskiner.
 
@@ -20,7 +20,7 @@ Merkeverdige teknologier med appen:
 - Bruk av Middleware som (bodyParser, cookieParser, Mongoose osv.)
 - React Library for Frontend funksjonalitet
 
-Ved behov for testing lokalt:
+### Testing lokalt:
 
 1. I prosjekt root folder, bruk 'npm install' i terminal
 2. Videre: 'npm postinstall'
