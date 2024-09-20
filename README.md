@@ -9,7 +9,7 @@ Oppgaven på eksamen var å lage an live chat applikasjon der man kunne snakke s
 
 Applikasjonen møter deg med en inloggingsside der du har valget mellom Google Login eller registrering av tradisjonelt bruker med passord. Når du har logget inn møtes du av hjemmesiden med en liste av alle chat rom laget av brukere på applikasjonen. du kan bli med på hvilken som helt chat og begynne en samtale. Du har også mulighet til å lage dine egne chat rom og se alle chat rom som du har laget i "My Chats". Om du vil se informasjon om din egen profil har du Profile komponenten, ellers kan du alltid se alle brukere på nettsiden og trykke på dem for å se deres informasjon.
 
-Merkeverdige teknologier med appen:
+### Merkeverdige teknologier med appen:
 - OAuth2 Google OpenID Login
 - Websockets for sanntids oppdattering for chatten
 - REST API Backend med Express/Node.js
